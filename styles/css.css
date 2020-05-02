@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+.container {
+    max-width: 1200px;
+}
+/* Меню Навигация */
+.main-menu {
+    margin-left: 314px;
+    margin-top: 76px;
+    margin-bottom: 104px;
+}
+.menu-link1{
+    color: skyblue;
+}
+.menu-link{
+    color: rgb(76, 76, 85);
+}
+.main-menu li {
+    display: inline;
+    /* margin-left: 120px; */
+        margin: 20px;
+}
+/* РЯД-1 */
+.row_1{
+    display: flex;
+}
+.col-md-1{
+    margin-left: 150px;
+    margin-right: 40px ;
+    margin-top: 12px;
+}
+.col-md-2{
+    margin-left: 0px;
+    margin-right: 150px ;
+    margin-top: 12px;
+}
+/* РЯД-2 */
+.row_2{
+    display: flex;
+    margin: 0 auto;
+}
+.col-md-3{
+    margin-left: 150px;
+    margin-right: 40px;
+    margin-top: 12px;
+}
+.col-md-4{
+    margin-left: 0px;
+    margin-right: 150px;
+    margin-top: 12px;
+}
+/* РЯД-3 */
+.row_3{
+    display: flex;
+    margin: 0 auto;
+}
+.col-md-5{
+    margin-left: 150px;
+    margin-right: 40px ;
+}
+.col-md-6{
+    margin-left: 0px;
+    margin-right: 150px ;
+}
+/* Підпис_ФОТО */
+.category-box{
+    padding: 25px 0;
+    color: #B4AD9E;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Кнопка */
+.button {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-right: 20px;
+    text-align: center;
+    position: relative;
+}
+.Load_more{
+    padding: 15px 35px;
+    border: 1px solid #626262;
+    background: #fff;
+    font-size: 20px;
+    color: #626262;
+}
