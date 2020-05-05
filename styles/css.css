@@ -1,143 +1,141 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif;
 }
 .container {
-    max-width: 1200px;
-    margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
 /* Меню Навигация */
 .main-menu {
-    margin-left: 314px;
-    margin-top: 76px;
-    margin-bottom: 104px;
-    text-transform: uppercase;
+  margin-left: 314px;
+  margin-top: 76px;
+  margin-bottom: 104px;
+  text-transform: uppercase;
 }
 /* Параметри навігації */
 .menu-link_1 {
-    color: rgb(76, 76, 85);
-    text-decoration: none;
-    font-size: 14px;
-     margin-right: 124px;
+  color: rgb(76, 76, 85);
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 124px;
 }
 .menu-link_2 {
-    color: rgb(76, 76, 85);
-    text-decoration: none;
-    font-size: 14px;
-    margin-right: 102px;
+  color: rgb(76, 76, 85);
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 102px;
 }
 .menu-link_3 {
-    color: rgb(76, 76, 85);
-    text-decoration: none;
-    font-size: 14px;
-    margin-right: 96px;
+  color: rgb(76, 76, 85);
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 96px;
 }
 .menu-link_4 {
-    color: rgb(76, 76, 85);
-    text-decoration: none;
-    font-size: 14px;
-
+  color: rgb(76, 76, 85);
+  text-decoration: none;
+  font-size: 14px;
 }
 /* Підсвічування навігації (НЕ Вдалося привязати hover до <ul class="main-menu">!!!) */
 .menu-link_1:hover {
-    color: #03a9f4 ;
+  color: #03a9f4;
 }
 .menu-link_2:hover {
-    color: #03a9f4 ;
+  color: #03a9f4;
 }
 .menu-link_3:hover {
-    color: #03a9f4 ;
+  color: #03a9f4;
 }
 .menu-link_4:hover {
-    color: #03a9f4 ;
+  color: #03a9f4;
 }
 /* Вирівнювання навігації в лінію */
 .main-menu li {
-    display: inline;
+  display: inline;
 }
 /* РЯД-1 */
 .row_1 {
-    display: flex;
-    padding-bottom: 135px;
+  display: flex;
+  padding-bottom: 135px;
 }
 .col-md-1 {
-    margin-left: 150px;
-    margin-right: 40px;
-    margin-top: 12px;
+  margin-left: 150px;
+  margin-right: 40px;
+  margin-top: 12px;
 }
 .col-md-2 {
-    margin-left: 0px;
-    margin-right: 150px;
-    margin-top: 12px;
+  margin-left: 0px;
+  margin-right: 150px;
+  margin-top: 12px;
 }
 /* РЯД-2 */
 .row_2 {
-    display: flex;
-    margin: 0 auto;
-    padding-bottom: 135px;
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 135px;
 }
 .col-md-3 {
-    margin-left: 150px;
-    margin-right: 40px;
-    margin-top: 12px;
+  margin-left: 150px;
+  margin-right: 40px;
+  margin-top: 12px;
 }
 .col-md-4 {
-    margin-left: 0px;
-    margin-right: 150px;
-    margin-top: 12px;
+  margin-left: 0px;
+  margin-right: 150px;
+  margin-top: 12px;
 }
 /* РЯД-3 */
 .row_3 {
-    display: flex;
-    margin: 0 auto;
+  display: flex;
+  margin: 0 auto;
 }
 .col-md-5 {
-    margin-left: 150px;
-    margin-right: 40px;
+  margin-left: 150px;
+  margin-right: 40px;
 }
 .col-md-6 {
-    margin-left: 0px;
-    margin-right: 150px;
+  margin-left: 0px;
+  margin-right: 150px;
 }
 /* Підпис_ФОТО, розмір шрифта колір, стиль */
 .category-box {
-    padding: 25px 0;
-    color: #b4ad9e;
-    text-transform: uppercase;
-    font-family: "Ubuntu", sans-serif;
+  padding: 25px 0;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
 }
 /* Текстові налаштування */
 .description-box {
-    margin-bottom: auto;
-    padding-bottom: 30px;
-    color: #626262;
+  margin-bottom: auto;
+  color: #626262;
 }
 .text {
-    font-size: 14px;
-    margin-top: 40px;
-    color: #626262;
-    letter-spacing: normal;
-    word-spacing: 4px;
+  font-size: 14px;
+  margin-top: 40px;
+  color: #626262;
+  letter-spacing: normal;
+  word-spacing: 4px;
 }
 
 /* Кнопка */
 .button {
-    margin-top: 57px;
-    margin-bottom: 70px;
-    margin-right: 20px;
-    text-align: center;
-    position: relative;
+  margin-top: 57px;
+  margin-bottom: 70px;
+  margin-right: 20px;
+  text-align: center;
+  position: relative;
 }
 .Load_more {
-    padding: 20px 35px;
-    border: 1px solid #626262;
-    background: #fff;
-    font-size: 20px;
-    color: #626262;
-    cursor: pointer;
+  padding: 20px 35px;
+  border: 1px solid #626262;
+  background: #fff;
+  font-size: 20px;
+  color: #626262;
+  cursor: pointer;
 }
